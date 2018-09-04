@@ -9,9 +9,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import java.util.Iterator;
 
-
-//import java.io.FileWriter;
-//import java.io.IOException;
 /**
  *
  * @author litem
@@ -29,15 +26,6 @@ public class jsonOps {
         list.add("msg 3");
 
         obj.put("messages", list);
-
-//        try (FileWriter file = new FileWriter("f:\\test.json")) {
-//
-//            file.write(obj.toJSONString());
-//            file.flush();
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
 
         System.out.print(obj);
         
